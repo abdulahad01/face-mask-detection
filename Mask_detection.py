@@ -19,7 +19,7 @@ model =tf.keras.models.load_model('mask_model.h5') #loading the pretrained model
 labels ={0 :' mask', 1 :'No Mask'}
 color = {1 : (0,0,255),0 :(0,255,0)}
 
-face_clsfr=cv2.CascadeClassifier('/home/azeem/venv/face-mask-detection-master/haarcascade_frontalface_default.xml') #path to face classifier
+face_clsfr=cv2.CascadeClassifier('haarcascade_frontalface_default.xml') #path to face classifier
 source = cv2.VideoCapture(0) #defining video source
 
 face_1_image = face_recognition.load_image_file("face1.jpg") #Add the directory to your face image
