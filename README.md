@@ -15,12 +15,12 @@
 
 <h3>Program Structure</h3>
 <h4><ol>
-  <ls> Load the pretrained model </ls>
-  <ls> Find the ROI with face using haarcascade </ls>
-  <ls> Detect if mask present or not</ls>
-  <ls> If mask present display "Mask is present".</ls>
-  <ls> If mask not present , check for the persons identity using facial recognition library</ls>
-  <ls> Using messaging script, send a whatsapp warning </ls>
-  <ls> display the video footage with bounting box and labels around detected faces</ls>
+  <li> Load the pretrained model </li>
+  <li> Find the ROI with face using haarcascade </li>
+  <li> Detect if mask present or not</li>
+  <li> If mask present display "Mask is present".</li>
+  <li> If mask not present , check for the persons identity using facial recognition library</li>
+  <li> Using messaging script, send a whatsapp warning </li>
+  <li> display the video footage with bounting box and labels around detected faces</li>
   </ol></h4>
     
